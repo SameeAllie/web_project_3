@@ -11,6 +11,8 @@
   line-height: 1.2;
   transition: background-color 0.25s ease-in-out;
   color: #fff;
+  width: 248px;
+  height: 48px;
 }
 .button:hover {
   background-color: #0063d2;
