@@ -5,6 +5,14 @@
   align-items: center;
   padding: 0;
 }
+
+.lead__image {
+  filter: grayscale(100%);
+  display: block;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
 .lead__title {
   font-size: 96px;
   font-weight: 900;
@@ -21,13 +29,6 @@
   max-width: 720px;
   margin: 0 auto 64px;
   text-align: center;
-}
-
-.lead__image {
-  filter: grayscale(100%);
-  display: block;
-  max-width: 100%;
-  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
