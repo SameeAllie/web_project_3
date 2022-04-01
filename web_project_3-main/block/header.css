@@ -4,14 +4,16 @@
   padding: 34px;
 }
 
-@media screen and (max-width: 640px) {
-  .header {
-    padding: 20px 0;
-  }
-}
-
 .header__logo {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    margin: 20px auto;
+    max-width: 200px;
+    max-height: 51.85px;
+  }
 }
