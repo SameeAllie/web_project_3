@@ -10,15 +10,6 @@
   }
 }
 
-.header__title {
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 100px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
 .header__logo {
   display: flex;
   justify-content: center;
