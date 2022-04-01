@@ -21,10 +21,14 @@
   text-align: center;
   padding-bottom: 64px;
   max-width: 720px;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   margin: 0;
+}
+
+.lead__image {
+  filter: grayscale(100%);
 }
 
 @media screen and (max-width: 1000px) {
