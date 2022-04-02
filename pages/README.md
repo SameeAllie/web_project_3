@@ -22,4 +22,4 @@ Figma link to the assignment can be found below:
 https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3%3A-From-Homeland-to-Homeland-%7C-desktop-%2B-mobile?node-id=0%3A1
 
 A final product of my assignment can be found here:
-sameeallie.github.io.
+https://sameeallie.github.io/web_project_3/
