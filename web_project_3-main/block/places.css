@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-rows: auto 460px auto;
-  grid-gap: 48px 35px;
+  grid-gap: 48px 40px;
   grid-template-areas:
     "title artist"
     "image description"
@@ -20,14 +20,13 @@
 }
 
 .places__title {
-  grid-area: title;
-  font-weight: 900;
   font-size: 72px;
-  line-height: 1.06;
-  margin: 0px;
-  display: flex;
-  align-items: flex-end;
+  line-height: 76px;
+  font-weight: 900;
   max-width: 460px;
+  grid-area: title;
+  margin: 0;
+  max-height: 152px;
 }
 
 .places__artist {
@@ -99,7 +98,10 @@
   }
   .places__title {
     font-size: 42px;
-    line-height: 1.06;
+    line-height: 1.1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
   }
 }
 @media screen and (max-width: 560px) {
@@ -135,10 +137,10 @@
     font-size: 32px;
     line-height: 1.09;
   }
-  .place__button {
+  .places__button {
     margin-bottom: 0;
-    padding-left: 18px;
-    padding-right: 18px;
-    align-self: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    align-content: center;
   }
 }

@@ -1,11 +1,11 @@
 .footer {
   align-items: center;
   text-align: center;
-  margin: 92px auto 24px;
+  margin: 0 auto 24px;
 }
 
 .footer__copyright {
-  margin: 0;
+  margin-top: 92px;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -18,8 +18,8 @@
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    margin-top: 64px;
     font-size: 14px;
     line-height: 14px;
+    margin-top: 64px;
   }
 }

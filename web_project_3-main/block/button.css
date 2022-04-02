@@ -1,19 +1,21 @@
 .button {
-  background-color: #0278fe;
-  border-radius: 4px;
-  max-height: 48px;
-  box-sizing: border-box;
-  text-decoration: none;
-  text-align: center;
-  padding: 13px 20px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.2;
-  transition: background-color 0.25s ease-in-out;
-  color: #fff;
   width: 248px;
   height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  border: none;
+  transition: 0.3s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 48px;
 }
+
 .button:hover {
   background-color: #0063d2;
 }
