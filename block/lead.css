@@ -28,6 +28,14 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1280px) {
+  .lead__image {
+    max-width: 984px;
+    max-height: 615px;
+    margin: 0 148px 0 148px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .lead__title {
     margin: 90px 24px 32px;

@@ -104,7 +104,7 @@
     align-items: flex-end;
   }
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 767px) {
   .places {
     margin: 62px 0 0;
   }
@@ -137,10 +137,9 @@
     font-size: 32px;
     line-height: 1.09;
   }
+
   .places__button {
-    margin-bottom: 0;
-    margin-left: 16px;
-    margin-right: 16px;
-    align-content: center;
+    width: 288px;
+    margin-left: calc((100% - 288px) / 2);
   }
 }
