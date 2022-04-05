@@ -50,7 +50,7 @@
 }
 
 .places__image {
-  padding:0px;
+  padding: 0px;
   width: 100%;
 }
 
@@ -75,7 +75,7 @@
   width: 248px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 786px) {
   .places {
     margin: 88px 24px 0;
   }
@@ -98,8 +98,8 @@
   }
 }
 
-@media screen and (max-width: 550px) {
-  .places{
+@media screen and (max-width: 650px) {
+  .places {
     margin: 62px 0px;
   }
 
@@ -123,11 +123,7 @@
     align-self: flex-start;
     margin: 0px;
   }
-  .places__artist-artist {
-    margin: 0px;
-    font-size: 12px;
-    line-height: 15px;
-  }
+
   .places__description {
     margin: 0px;
     line-height: 163%;
